@@ -15,6 +15,9 @@ Developers can download the application source ZIP from the same page. The
 application's source and third-party notices are in the
 [EyeSync repository](https://github.com/vexelbotrps-lgtm/EyeSync).
 
+The Controls page lists all three face gestures, every supported voice-typing
+editing phrase, and the six exact Command Panel phrases for the on-screen keyboard.
+
 ## Local preview
 
 Run `python -m http.server 8000` in the repository root, then open
@@ -24,8 +27,8 @@ Run `python -m http.server 8000` in the repository root, then open
 
 The workflow in `.github/workflows/pages.yml` publishes the site from the
 repository root when `main` is pushed. `downloads/latest.json` names the
-tested setup asset in the EyeSync GitHub Release, including its size and
-Update that manifest after uploading a new release.
+tested setup asset in the EyeSync GitHub Release, including its size. Update
+that manifest after uploading a new release.
 
 The optional browser demo needs camera permission and is separate from the
 downloaded application. After installation, EyeSync runs without this website.
