@@ -2,7 +2,7 @@
 
 This is the public [EyeSync](https://github.com/vexelbotrps-lgtm/EyeSync)
 download website. It keeps the original visual style and browser face-tracking
-demo, with no dashboard, account, or sign-in flow. The site is open source under
+demo, with direct Windows and developer downloads. The site is open source under
 the [MIT License](LICENSE).
 
 The Download page offers the latest Windows setup executable. Opening setup
