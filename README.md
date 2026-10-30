@@ -6,8 +6,8 @@ demo, with direct Windows and developer downloads. The site is open source under
 the [MIT License](LICENSE).
 
 The Download page offers the latest Windows setup executable. Opening setup
-installs EyeSync Standalone in the current user's app folder and creates an
-**EyeSync Standalone** shortcut on the Desktop or in a chosen folder. Clicking
+installs EyeSync in the current user's app folder and creates an
+**EyeSync** shortcut on the Desktop or in a chosen folder. Clicking
 the shortcut starts nine-dot calibration on first launch, then opens the app.
 The setup bundles Python 3.15.2 and does not need administrator rights.
 
@@ -25,7 +25,7 @@ Run `python -m http.server 8000` in the repository root, then open
 The workflow in `.github/workflows/pages.yml` publishes the site from the
 repository root when `main` is pushed. `downloads/latest.json` names the
 tested setup asset in the EyeSync GitHub Release, including its size and
-SHA-256. Update that manifest after uploading a new release.
+Update that manifest after uploading a new release.
 
-The optional browser demo needs camera permission. It runs MediaPipe from
-files served by this site; camera frames stay in the browser.
+The optional browser demo needs camera permission and is separate from the
+downloaded application. After installation, EyeSync runs without this website.
