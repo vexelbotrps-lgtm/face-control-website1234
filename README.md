@@ -15,8 +15,8 @@ Developers can download the application source ZIP from the same page. The
 application's source and third-party notices are in the
 [EyeSync repository](https://github.com/vexelbotrps-lgtm/EyeSync).
 
-The Controls page lists all three face gestures, every supported voice-typing
-editing phrase, and the six exact Command Panel phrases for the on-screen keyboard.
+The Controls page is the single place for all three face gestures and the six
+exact Command Panel phrases for the on-screen keyboard.
 
 ## Local preview
 

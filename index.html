@@ -784,7 +784,7 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
         <nav class="mb-menu" aria-label="Jump to a window">
           <a href="#download">Download</a>
           <a href="#why">Why</a>
-          <button type="button" data-win-go="gestures.exe">Gestures</button>
+          <a href="#controls">Controls</a>
           <button type="button" data-win-go="setup.bas">Setup</button>
           <button type="button" data-win-go="privacy.sys">Privacy</button>
         </nav>
@@ -793,8 +793,8 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
       <div class="hero win" data-win="welcome.txt">
         <div class="hero-copy">
           <p class="eyebrow prompt">Webcam head mouse for Windows</p>
-          <h1 id="home-title" tabindex="-1">Steer your screen with your <span class="hl">head.</span> Click with a <span class="hl hl-2">smile.</span></h1>
-          <p class="lede">EyeSync turns your webcam into a mouse. Move your head to steer, smile to left click, and open your mouth to right click. Install once and launch it from a desktop shortcut.</p>
+          <h1 id="home-title" tabindex="-1">Steer your screen with your <span class="hl">head.</span> Control it without your <span class="hl hl-2">hands.</span></h1>
+          <p class="lede">EyeSync turns your webcam into a hands-free mouse with offline voice typing. Install once and launch it from a desktop shortcut.</p>
           <div class="hero-actions"><a class="btn btn-primary btn-lg btn-dl" href="#download">Download EyeSync</a><a class="btn btn-lg" href="#why">Why EyeSync?</a></div>
           <ul class="hero-facts">
             <li>Free for Windows 10 and 11</li>
@@ -833,14 +833,14 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
       </div>
 
       <div class="ticker" aria-hidden="true"><div class="ticker-track">
-        <span>Smile to left click</span><span>Open your mouth to right click</span><span>Close both eyes for one second to toggle voice typing</span><span>Move with your gaze</span><span>Nine-dot calibration</span><span>Open source</span><span>Private on your PC</span>
+        <span>Hands-free mouse control</span><span>Offline voice typing</span><span>Simple face gestures</span><span>Nine-dot calibration</span><span>Open source</span><span>Private on your PC</span>
       </div></div>
 
       <section class="home-section win" data-win="mission.txt" aria-labelledby="mission-title">
         <div class="section-head">
           <p class="eyebrow">Why we made it</p>
           <h2 id="mission-title">Made for people who can't use a mouse</h2>
-          <p class="lede">EyeSync is for people living with paralysis, or with a disability or injury that makes a mouse and keyboard hard or impossible to use. A webcam, a little head movement, a smile and voice typing help make a computer easier to use.</p>
+          <p class="lede">EyeSync is for people living with paralysis, or with a disability or injury that makes a mouse and keyboard hard or impossible to use. A webcam and hands-free controls help make a computer easier to use.</p>
         </div>
         <div class="row"><a class="btn btn-primary" href="#why">Read why we made EyeSync</a></div>
       </section>
@@ -848,27 +848,18 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
       <section class="home-section win" data-win="features.app" aria-labelledby="features-title">
         <div class="section-head"><p class="eyebrow">What it does</p><h2 id="features-title">Hands-free control from one app</h2></div>
         <div class="features">
-          <article class="feature"><span class="feature-mark" data-tone="danger" aria-hidden="true"></span><h3>Steer with your face</h3><p>The calibrated model maps your face to the mouse pointer. Smile for left click; open your mouth for right click.</p></article>
-          <article class="feature"><span class="feature-mark" aria-hidden="true"></span><h3>Voice typing</h3><p>Close both eyes for one second to start or stop offline voice typing. A beep confirms each change. There is no session time limit.</p></article>
+          <article class="feature"><span class="feature-mark" data-tone="danger" aria-hidden="true"></span><h3>Steer with your face</h3><p>The calibrated model maps your face to the mouse pointer and supports hands-free clicking.</p></article>
+          <article class="feature"><span class="feature-mark" aria-hidden="true"></span><h3>Voice typing</h3><p>Dictate text offline with no session time limit. Face and voice controls are explained on the Controls page.</p></article>
           <article class="feature"><span class="feature-mark" data-tone="warn" aria-hidden="true"></span><h3>Tuned to you</h3><p>On first launch, a nine-dot calibration trains the pointer for your face, camera and screen. Calibrate again from the app whenever needed.</p></article>
           <article class="feature"><span class="feature-mark" data-tone="ok" aria-hidden="true"></span><h3>Ready from a shortcut</h3><p>Run setup once. The desktop shortcut starts EyeSync directly, including calibration on the first launch. Python is bundled.</p></article>
         </div>
       </section>
 
       <section class="stats" aria-label="EyeSync in numbers">
-        <div class="stat"><span class="stat-n" data-count="3">3</span><span class="stat-l">face gestures</span></div>
+        <div class="stat"><span class="stat-n" data-count="3">3</span><span class="stat-l">simple controls</span></div>
         <div class="stat"><span class="stat-n" data-count="9">9</span><span class="stat-l">calibration dots</span></div>
-        <div class="stat"><span class="stat-n" data-count="1" data-suffix=" s">1 s</span><span class="stat-l">eye closure to toggle voice</span></div>
+        <div class="stat"><span class="stat-n" data-count="1">1</span><span class="stat-l">app for mouse and voice</span></div>
         <div class="stat"><span class="stat-n" data-count="0" data-from="100">0</span><span class="stat-l">camera pictures uploaded</span></div>
-      </section>
-
-      <section class="home-section win" data-win="gestures.exe" aria-labelledby="gestures-title">
-        <div class="section-head"><p class="eyebrow">Gestures</p><h2 id="gestures-title">Only three gestures</h2><p class="lede">These work while the button in the EyeSync app says <strong>Pause</strong>. They stop when it says <strong>Resume</strong>.</p></div>
-        <ul class="gestures">
-          <li class="gesture g-smile"><div class="g-screen" aria-hidden="true">☺</div><h3>Smile</h3><p>Hold a smile to left click.</p><span class="g-does">Left click</span></li>
-          <li class="gesture g-open"><div class="g-screen" aria-hidden="true">◯</div><h3>Open your mouth</h3><p>Open your mouth to right click.</p><span class="g-does">Right click</span></li>
-          <li class="gesture g-shut"><div class="g-screen" aria-hidden="true">◡</div><h3>Close both eyes</h3><p>Keep both eyes closed for one second to start voice typing with a beep. Do it again to stop with another beep.</p><span class="g-does">Voice typing</span></li>
-        </ul>
       </section>
 
       <section class="home-section win" data-win="setup.bas" aria-labelledby="how-title">
@@ -931,14 +922,6 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
         <section class="panel" aria-labelledby="gesture-rules-title"><p class="eyebrow">Important</p><h2 id="gesture-rules-title">When gestures work</h2><ul class="ticks"><li><span>Gestures work only while the main EyeSync button says <strong>Pause</strong>.</span></li><li><span>When the button says <strong>Resume</strong>, all gesture holds are cleared and no gesture fires.</span></li><li><span>Each gesture fires once per hold. Relax your face before using it again.</span></li><li><span>Voice typing has no time limit. You can also stop it with the visible <strong>Stop</strong> button on its bar.</span></li></ul></section>
       </div>
 
-      <section class="home-section" aria-labelledby="typing-commands-title"><div class="section-head"><p class="eyebrow">Voice typing</p><h2 id="typing-commands-title">Editing commands you can say</h2><p class="lede">Say a command as its own phrase, with a brief pause before and after. Everything else is typed as ordinary dictated text.</p></div>
-        <div class="grid-3">
-          <article class="panel"><h3>Editing</h3><ul class="ticks"><li><code>Delete that</code></li><li><code>Scratch that</code></li><li><code>Undo that</code></li><li><code>Erase that</code></li><li><code>Remove that</code></li><li><code>Delete last</code></li></ul></article>
-          <article class="panel"><h3>Lines and keys</h3><ul class="ticks"><li><span><code>New line</code> or <code>Next line</code></span></li><li><span><code>New paragraph</code> or <code>Next paragraph</code></span></li><li><span><code>Press Enter</code> or <code>Hit Enter</code></span></li><li><span><code>Tab</code> or <code>Press Tab</code></span></li><li><span><code>Backspace</code> or <code>Press Backspace</code></span></li><li><span><code>Space</code> or <code>Space bar</code></span></li></ul></article>
-          <article class="panel"><h3>Punctuation</h3><ul class="ticks"><li><code>Comma</code></li><li><span><code>Period</code>, <code>Full stop</code> or <code>Dot</code></span></li><li><code>Question mark</code></li><li><span><code>Exclamation mark</code> or <code>Exclamation point</code></span></li><li><code>Colon</code></li><li><code>Semicolon</code></li></ul></article>
-        </div>
-      </section>
-
       <section class="home-section" aria-labelledby="keyboard-commands-title"><div class="section-head"><p class="eyebrow">Command Panel</p><h2 id="keyboard-commands-title">On-screen keyboard commands</h2><p class="lede">Dictate one of these exact phrases into the Command Panel field. Only a supported phrase runs a keyboard action.</p></div>
         <div class="grid-2">
           <section class="panel panel-strong"><h3>Open and size</h3><ul class="ticks"><li><code>Open the on-screen keyboard</code></li><li><code>Close the on-screen keyboard</code></li><li><code>Increase the size of the on-screen keyboard</code></li><li><code>Decrease the size of the on-screen keyboard</code></li></ul></section>
@@ -966,7 +949,7 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.72); }
         </section>
         <section class="panel" aria-labelledby="why-answer-title">
           <h2 id="why-answer-title">Our answer</h2>
-          <p>EyeSync turns an ordinary webcam into a mouse. Small head movements steer the cursor, a smile left clicks, an open mouth right clicks, and a one-second eye closure toggles offline voice typing.</p>
+          <p>EyeSync turns an ordinary webcam into a hands-free mouse with offline voice typing. Its Controls page keeps every gesture and command in one clear place.</p>
           <p>It's free, it needs nothing but a webcam, and the camera picture never leaves your PC. We wanted something anyone could start using today, with what they already have.</p>
           <div class="row"><a class="btn btn-primary" href="#download">Download EyeSync</a></div>
         </section>
@@ -1568,10 +1551,9 @@ const Mascot = {
   el: $('#mascot'), eyes: $('.ms-eyes'), bubble: $('#mascot-say'),
   tips: [
     'Hi, I am Sync! Try the browser demo or download the Windows app.',
-    'Smile to left click and open your mouth to right click in the EyeSync app.',
-    'Close both eyes for one second to toggle voice typing.',
+    'Open the Controls page for every gesture and command.',
     'The first launch uses nine dots to calibrate your pointer.',
-    'The browser demo uses a blink; the Windows app uses a smile to click.',
+    'The browser demo is separate from the downloaded Windows app.',
     'Your camera and voice stay on your PC.',
   ],
   tip: 0, x: -1, y: -1, raf: 0, hideTimer: 0, blinkTimer: 0, idleTimer: 0,
